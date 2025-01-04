@@ -111,6 +111,10 @@
     {\href{#2}{#2}}
     {\href{#2}{#1}}}
 
+% defines one's home address
+% usage: \home{<homeAddress>}
+    \newcommand{\home}[1]{\faHome\ {#1}}
+
 \newcommand{\basicInfo}[1]{
   \centerline{\sffamily\large{#1}}
   \vspace{1.5ex}
